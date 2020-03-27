@@ -64,18 +64,11 @@ print (f"original runtime using data structure: {end_time - start_time} seconds"
 # What's the best time you can accomplish?  Thare are no restrictions on techniques or data
 # structures, but you may not import any additional libraries that you did not write yourself.
 
-# create a new set to remove internal duplicates
-newSet = {"asdf"}
 
-# create a new duplicates array
 dupes2 = []
 
-# fill out the set with the values from names_1
-for name in names_1:
-    newSet.add(name)
-
 # use built-in sort function to sort the new set
-newSet2 = sorted(newSet)
+newSet2 = sorted(names_1)
 
 # binary search function
 def BinarySearch(lys, val):
